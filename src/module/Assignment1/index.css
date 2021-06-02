@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&family=Rubik&display=swap");
+
+.WebWrapper {
+  width: 90vw;
+  height: 90vh;
+  margin-bottom: 0;
+}
+
+.WebContainer {
+  width: 70vw;
+  height: 90vh;
+  background-color: #e1e7eb;
+  position: relative;
+  left: 15vw;
+  top: 4vh;
+  border-radius: 10px;
+}
+
+.MainWrapper {
+  width: 60vw;
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: -5px 82px 71px -44px rgba(0, 0, 0, 0.44);
+  position: relative;
+  left: 5.2vw;
+  top: 10vh;
+  display: flex;
+  border-radius: 15px;
+}
+
+.ContentWrapper1 {
+  height: 65vh;
+  width: 18vw;
+  background-color: #3A3594;
+  border-radius: 10px;
+  position: relative;
+  top: 3vh;
+  left: 1vw;
+}
+
+#SaveYour {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  margin-left: 1vw;
+}
+
+#MoneyNow {
+  font-size: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 800;
+  color: white;
+  margin-top: 0;
+  margin-left: 1vw;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  top: -6vh;
+}
+
+.ContentWrapper2 {
+  height: 48vh;
+  width: 18vw;
+  margin-left: 3vw;
+  background-color: #e1e7eb;
+  border-radius: 10px;
+  position: relative;
+  top: 20.1vh;
+}
+
+.ContentWrapper3 {
+  height: 48vh;
+  width: 18vw;
+  margin-left: 2vw;
+  background-color: #1b1091;
+  border-radius: 10px;
+  position: relative;
+  top: 20.3vh;
+}
+
+#Para1 {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  width: 16vw;
+  position: relative;
+  top: -8vh;
+  left: 1vw;
+  font-size: 1.7vh;
+}
+#Para2 {
+  color: white;
+  font-family: "Rubik", sans-serif;
+  width: 16vw;
+  position: relative;
+  top: -8vh;
+  left: 1vw;
+  font-size: 1.7vh;
+}
+
+#CoinImg {
+  position: relative;
+  height: 24vh;
+  top: -3vh;
+  left: 4vw;
+}
+
+#StartNow {
+  position: relative;
+  bottom: 16vh;
+  font-size: 30px;
+}
+
+#FreePlan {
+  position: relative;
+  bottom: 21vh;
+  width: 16vw;
+  font-size: 30px;
+}
+
+#Free {
+  position: relative;
+  bottom: 18vh;
+  height: 2vh;
+  left: 14vw;
+}
+
+#Restrictions {
+  position: relative;
+  font-size: 12px;
+  bottom: 18vh;
+  height: 2vh;
+  left: 12vw;
+  color: rgb(170, 168, 168);
+}
+
+#Lite {
+  position: relative;
+  bottom: 27vh;
+  left: 1vw;
+}
+
+#LiteUnder {
+  position: relative;
+  bottom: 30.5vh;
+  left: 1vw;
+}
+
+#Plan {
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+  font-weight: 800;
+  font-size: 13px;
+  left: 1vw;
+  bottom: 30vh;
+}
+
+.List1 {
+  position: relative;
+  bottom: 32vh;
+  width: 15vw;
+  right: 1vw;
+  list-style: "✓";
+  font-family: "Rubik", sans-serif;
+  font-size: 1.7vh;
+}
+
+.List1 li {
+  padding-left: 1vw;
+  padding-top: 0.3vh;
+}
+
+#FeatureView {
+  position: relative;
+  bottom: 31vh;
+  width: 7vw;
+  left: 6vw;
+  font-size: 1.2vh;
+}
+
+#PlanBtn {
+  position: relative;
+  bottom: 31vh;
+  left: 3vw;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  width: 12vw;
+  height: 6vh;
+  background-color: #1b1091;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  border-radius: 13px;
+}
+
+#PlanBtn:hover {
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+#Contact {
+  position: relative;
+  left: 8vw;
+  bottom: 14vh;
+  font-family: "Rubik", sans-serif;
+}
+
+#ContactLink {
+  position: relative;
+  left: 12.5vw;
+  bottom: 15vh;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+
+#ContactLink:hover {
+  text-decoration: underline;
+}
+#Pro {
+  position: relative;
+  bottom: 9.5vh;
+  left: 1vw;
+  color: white;
+}
+
+#ProUnder {
+  position: relative;
+  bottom: 13vh;
+  left: 1vw;
+  color: white;
+}
+
+#LitePlus {
+  font-family: "Noto Sans KR", sans-serif;
+  position: relative;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+  left: 1vw;
+  bottom: 13vh;
+}
+
+.List2 {
+  position: relative;
+  bottom: 15vh;
+  width: 15vw;
+  right: 1vw;
+  list-style: "✓";
+  font-family: "Rubik", sans-serif;
+  font-size: 1.7vh;
+  color: white;
+}
+
+.List2 li {
+  padding-left: 1vw;
+  padding-top: 0.3vh;
+}
+
+.List2 li:last-of-type {
+  position: relative;
+  bottom: 2vh;
+}
+
+#FeatureView2 {
+  position: relative;
+  bottom: 17vh;
+  width: 7vw;
+  left: 6vw;
+  font-size: 1.2vh;
+  color: white;
+}
+
+#PlanBtn2 {
+  position: relative;
+  bottom: 17vh;
+  left: 3vw;
+  outline: none;
+  border: none;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  width: 12vw;
+  height: 6vh;
+  background-color: white;
+  color: black;
+  font-family: "Rubik", sans-serif;
+  border-radius: 5px;
+}
+
+#PlanBtn2:hover {
+  background-color: indigo;
+  cursor: pointer;
+}
