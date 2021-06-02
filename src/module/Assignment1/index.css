@@ -33,7 +33,7 @@
 .ContentWrapper1 {
   height: 65vh;
   width: 18vw;
-  background-color: #3A3594;
+  background-color: #3a3594;
   border-radius: 10px;
   position: relative;
   top: 3vh;
@@ -233,6 +233,23 @@
   color: white;
 }
 
+#Dollar {
+  color: white;
+  position: relative;
+  bottom: 22vh;
+  height: 2vh;
+  left: 14vw;
+}
+
+#Monthly {
+  position: relative;
+  font-size: 12px;
+  bottom: 22vh;
+  height: 2vh;
+  left: 14vw;
+  color: rgb(170, 168, 168);
+}
+
 #LitePlus {
   font-family: "Noto Sans KR", sans-serif;
   position: relative;
@@ -240,12 +257,12 @@
   font-weight: 800;
   font-size: 13px;
   left: 1vw;
-  bottom: 13vh;
+  bottom: 21vh;
 }
 
 .List2 {
   position: relative;
-  bottom: 15vh;
+  bottom: 23vh;
   width: 15vw;
   right: 1vw;
   list-style: "✓";
@@ -266,7 +283,7 @@
 
 #FeatureView2 {
   position: relative;
-  bottom: 17vh;
+  bottom: 25vh;
   width: 7vw;
   left: 6vw;
   font-size: 1.2vh;
@@ -275,7 +292,7 @@
 
 #PlanBtn2 {
   position: relative;
-  bottom: 17vh;
+  bottom: 25.5vh;
   left: 3vw;
   outline: none;
   border: none;
@@ -287,7 +304,7 @@
   background-color: white;
   color: black;
   font-family: "Rubik", sans-serif;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #PlanBtn2:hover {

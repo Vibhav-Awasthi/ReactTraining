@@ -54,6 +54,8 @@ class Assignment1 extends Component {
               </a>
               <h2 id={"Pro"}>Pro</h2>
               <h2 id={"ProUnder"}>__</h2>
+              <h2 id={"Dollar"}>29$</h2>
+              <p id={"Monthly"}>monthly</p>
               <p id={"LitePlus"}>All of Lite plus:</p>
               <ul class={"List2"}>
                 <li>
