@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./module/Home";
+import Assignment2 from "./module/Assignment2";
 class App extends React.Component {
   render() {
     return (
       <div className={"HomeContainer"}>
-        <Home/>
+        <Assignment2/>
       </div>
     );
   }

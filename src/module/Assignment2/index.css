@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.homeContainer {
+  width: 99vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(194, 194, 194);
+}
+
+.pageContainer {
+  width: 600px;
+  height: auto;
+}
+
+.headContainer {
+  width: 600px;
+  height: 230px;
+  margin: 0;
+  background-image: url("./Images/banner.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mainHead{
+    max-width: 100%;
+    width:auto;
+    height: 10vh;
+    position: relative;
+    top:45px;
+    left:55px;
+}
+
+.bannerHeading{
+    color: rgb(104, 183, 225);
+    font-size: 35px;
+    font-weight:800;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 0;
+}
+.bannerHeading2{
+    color: rgb(104, 183, 225);
+    font-size: 35px;
+    font-weight:800;
+    font-family: 'Mukta', sans-serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.bannerDesc1{
+    font-family: 'Mukta', sans-serif;
+    color: rgb(202, 250, 252);
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+    left: 2px;
+}
+
+.bannerDesc2{
+    font-family: 'Mukta', sans-serif;
+    color: rgb(202, 250, 252);
+    font-size: 30px;
+    position: relative;
+    bottom: 60px;
+    left: 2px;
+}
+
+.itemContainer1{
+    width: 600px;
+    height: 20px;
+    padding: 50px 0px;
+    background-color: rgb(29, 176, 202);
+}
+
+.itemContainer1 h2{
+    margin-left: 160px;
+    position: relative;
+    color: rgb(0, 35, 68);
+    font-family: 'Mukta', sans-serif;
+    bottom:40px;
+}
+
+.itemContainer1 p{
+    width:400px;
+    margin-left: 160px;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    bottom:50px;
+
+}
+
+.itemContainer1 img{
+    height:100px;
+    width:90px;
+    margin-top: -30px;
+    position: relative;
+    bottom:90px;
+    left: 20px;
+}
+
+
+
+
+.itemContainer2{
+    width: 600px;
+    height: 30px;
+    padding: 50px 0px;
+    background-color: rgb(26, 152, 174);
+}
+
+.itemContainer2 h2{
+    margin-left: 40px;
+    position: relative;
+    color: rgb(0, 35, 68);
+    font-family: 'Mukta', sans-serif;
+    bottom:30px;
+}
+
+.itemContainer2 p{
+    width:400px;
+    margin-left: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    bottom:30px;
+
+}
+
+.itemContainer2 img{
+    height: 80px;
+    position:relative;
+    bottom:100px;
+    left: 470px;
+}
+
+
+footer{
+    height: 40px;
+    width:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 38, 95);
+}
+
+footer img{
+    height:20px;
+    width:20px;
+    padding-left: 5px ;
+}
+
+footer p{
+    color: white;
+    padding-left: 5px;
+}

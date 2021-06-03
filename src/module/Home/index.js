@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./index.css";
-
+// import ReusableBox from '../..components/reusableBox';
 class Home extends Component {
   renderBox(title, buttonTitle){
     return(
@@ -16,7 +16,8 @@ class Home extends Component {
         <h1>{"Home Page"}</h1>
         {this.renderBox("First Container", "Click me First")}
         {this.renderBox("Second Container",'click me First')}
-        {this.renderBox('first Container','click me first')}
+        {this.renderBox('Third Container','click me first')}
+		{/* <ReusableBox heading={"Fourth Container"} buttonTitle={"Click Me Fourth"}/> */}
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class reusableBox extends Component {
+export default class ReusableBox extends Component {
   render() {
     const { heading, buttonTitle } = this.props;
     return (
