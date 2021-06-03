@@ -1,8 +1,39 @@
-.homeContainer{
+.homeContainer {
     width: 100vw;
     height: 100vh;
-
-}
-.h1tag{
-    color: red;
-}
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+  }
+  
+  .itemContainer {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+  }
+  
+  .itemContainer h3 {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .itemContainer button {
+    width: auto;
+    height: 30px;
+    cursor: pointer;
+    padding: 0px 16px;
+    border-radius: 15px;
+    background-color: lightgreen;
+  }
+  
+  .redClrTxt {
+    color: red !important;
+  }
