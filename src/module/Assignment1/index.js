@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./index.css";
-
 class Assignment1 extends Component {
   render() {
     return (

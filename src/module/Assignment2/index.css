@@ -105,9 +105,6 @@
     left: 20px;
 }
 
-
-
-
 .itemContainer2{
     width: 600px;
     height: 30px;
@@ -128,7 +125,7 @@
     margin-left: 40px;
     font-family: 'Noto Sans KR', sans-serif;
     position: relative;
-    bottom:30px;
+    bottom:32px;
 
 }
 
