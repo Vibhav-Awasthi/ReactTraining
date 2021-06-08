@@ -1,590 +1,653 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
 
-body{
-    width:100%;
-    height:1000vh;
-    background-image: linear-gradient(#fcfeff, #ffffff);
+body {
+  width: 100%;
+  height: 1000vh;
+  background-image: linear-gradient(#f9fdff, #ffffff);
+  margin: 0;
+  padding: 0;
 }
-header{
-    height:100px;
-    display: flex;
+
+.mainContainer{
+    display: block;
     align-items: center;
     justify-content: center;
-    position: sticky;
+}
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
 }
 
-.Xcoins-logo{
-    width:200px;
-    height: 56px;
+.Xcoins-logo {
+  width: 200px;
+  height: 56px;
 }
 
-
-header p{
-    font-size: 50px;
-    color:rgb(218, 218, 218);
-    font-weight: 20;
-    font-family: 'Limelight', cursive;
+header p {
+  font-size: 50px;
+  color: rgb(218, 218, 218);
+  font-weight: 20;
+  font-family: "Limelight", cursive;
 }
 
-
-header ul{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    margin-left: 0px;
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: 0px;
 }
 
-header li{
-    font-size: 16px;
-    color:rgb(141, 138, 138);
-    font-weight: 600;
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 55px;
+header li {
+  font-size: 16px;
+  color: rgb(141, 138, 138);
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 55px;
 }
 
-header select{
-    margin-left: 200px;
-    height: 30px;
-    width:80px;
-    font-size: 20px;
-    outline: none;
-    border: none;
-    border-radius: 10px;
-    background-color: #f6fcff;
+header select {
+  margin-left: 200px;
+  height: 30px;
+  width: 80px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #f6fcff;
 }
 
-.login_btn{
-    height:30px;
-    width:80px;
-    font-weight: 700;
-    margin-left: 50px;
-    background-color: #f6fcff;
-    color:#51c5ff;
-    border:2px solid #b2e2fa;
-    border-radius: 60px;
-    font-size: 16px;
+.login_btn {
+  height: 30px;
+  width: 80px;
+  font-weight: 700;
+  margin-left: 50px;
+  background-color: #f6fcff;
+  color: #51c5ff;
+  border: 2px solid #b2e2fa;
+  border-radius: 60px;
+  font-size: 16px;
 }
 
-
-.login_btn:hover{
-    background-color: #9bdcfc; 
-    cursor: pointer;
+.login_btn:hover {
+  background-color: #9bdcfc;
+  cursor: pointer;
 }
 
-
-.adSection{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 200px;
+.adSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  background-image: url("./background/background.svg");
+  background-repeat: no-repeat;
 }
-
 
 .para {
-    width:560px;
+  width: 560px;
 }
 
-.para p{
-    width:560px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #637696;
-    font-size:22px;
-    line-height: 1.64;
-    letter-spacing: normal;
+.para p {
+  width: 560px;
+  font-family: "Ubuntu", sans-serif;
+  color: #637696;
+  font-size: 22px;
+  line-height: 1.64;
+  letter-spacing: normal;
 }
 
-#bitCoin{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    color: black;
+#bitCoin {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: black;
 }
 
-.card{
-    background-color: rgb(255, 255, 255);
-    width: 455px;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px 0 rgba(37, 119, 167, 0.07);
+.card {
+  background-color: rgb(255, 255, 255);
+  width: 455px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(37, 119, 167, 0.07);
 }
 
-.card p{
-    color: rgb(187, 187, 187);
-    height:1px;
-    font-size: 9px;
+.card p {
+  color: rgb(187, 187, 187);
+  height: 1px;
+  font-size: 9px;
 }
 
-.conversion{
+.conversion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.conversion h1{
+    padding-right: 0;
+}
+.conversion img {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+  left: 50px;
+}
+
+.partition {
+  width: 1px;
+  height: 40px;
+  background-color: rgb(213, 213, 213);
+  position: relative;
+  left:30px;
+}
+
+.conversion select {
+  height: 30px;
+  width: 80px;
+  font-size: 30px;
+  padding-left: 0;
+  margin-right: 20px;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.buyBitcoins {
+  width: 374px;
+  height: 64px;
+  margin: 30px 0;
+  background-color: #86c306;
+  font-family: "Ubuntu", sans-serif;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 18px;
+}
+
+.buyBitcoins:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.community {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 250px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-family: "Ubuntu", sans-serif;
+  color: #637696;
+  background-image: url("./background/background.svg");
+  background-repeat: no-repeat;
+  background-position-x:right ;
+  background-position-y:-100px ;
+
+}
+
+.communityName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#community_img {
+  height: 90px;
+  width: 90px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.com p {
+  font-size: 12px;
+  color: #3a4e6f;
+  position: relative;
+  bottom: 15px;
+  left: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.cName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("./background/pattern-01.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#customers {
+  width: 400px;
+}
+.trustedBy p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: black;
+}
+
+.rate h2 {
+  color: #009cde;
+}
+
+.rateReview {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("./background/pattern-02.svg");
+}
+
+#average {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 200;
+  position: relative;
+  bottom: 20px;
+  color: #637696;
+  font-size: 22px;
+  line-height: 1.64;
+  letter-spacing: normal;
+}
+
+#review {
+  height: 100px;
+  background-color: white;
+}
+
+.reviewCard {
+  height: 290px;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 13px 7px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reviewPara {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.78;
+  letter-spacing: normal;
+  color: #637696;
+}
+
+#name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.underScore {
+  margin-left: 15px;
+}
+
+.features {
+  margin-top: 200px;
+}
+
+.featureHeading {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+
+.featureSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("./background/pattern-01.svg");
+  background-repeat: no-repeat;
+  background-position-y:150px ;
+}
+
+.featureList {
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+  
+}
+
+.feat{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0;
+}
+.arrow_right{
+    position: relative;
+    bottom: 10px;
+    left: 40px;
 }
 
-.conversion img{
-    height: 50px;
-    width: 50px;
+.readMore:hover {
+  cursor: pointer;
+}
+
+.featureImg {
+  height: 100px;
+  width: 120px;
+}
+
+.featureClick {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.featureDesc {
+  width: 350px;
+  font-family: "Ubuntu", sans-serif;
+  color: #637696;
+  font-size: 22px;
+  line-height: 1.64;
+  letter-spacing: normal;
+  margin-left: 35px;
+}
+
+.readMore {
+  color: #009cde;
+  font-size: 22px;
+  margin-left: 45px;
+}
+
+.program {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 300px;
+}
+
+.refferal {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 6px 21px -6px rgba(0, 0, 0, 0.75);
+}
+
+.refferal h1 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  bottom: 80px;
+  margin-left: 30px;
+}
+.check{
+    margin-right: 10px;
+}
+
+.refferal ul {
+  list-style-type: none;
+  position: relative;
+  bottom: 40px;
+}
+
+.refferal li {
+  font-family: "Ubuntu", sans-serif;
+  color: #637696;
+  font-size: 18px;
+  line-height: 1.64;
+  letter-spacing: normal;
+  padding-left: 20px;
+  position: relative;
+  bottom: 80px;
+}
+
+#connection {
+  height: 90px;
+  width: 90px;
+  position: relative;
+  bottom: 60px;
+  left:40px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: none;
+  border-radius: 100px;
+  box-shadow: 2px 6px 21px -6px rgb(200, 238, 255);
+}
+
+.refferal2 li {
+  list-style-type: none;
+  position: relative;
+  bottom: 40px;
+}
+
+.refferal2 li {
+  font-family: "Ubuntu", sans-serif;
+  color: #637696;
+  font-size: 18px;
+  line-height: 1.64;
+  letter-spacing: normal;
+  padding-left: 20px;
+  position: relative;
+  bottom: 80px;
+}
+
+.buyBitcoin {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#startBit {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.buyBitcoin p {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Ubuntu", sans-serif;
+  color: #637696;
+}
+
+.buyBitcoin button {
+  width: 250px;
+  height: 70px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background-color: #009cde;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.buyBitcoin button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.cryptoFeat {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.cryptoBuy {
+  width: 350px;
+  position: relative;
+  bottom: 60px;
+}
+
+.cryptoFeat p {
+  width: 469px;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.78;
+  color: #637696;
+  position: relative;
+  bottom: 60px;
+}
+
+.cryptoFeat button {
+  position: relative;
+  right: 50px;
+  height: 70px;
+  width: auto;
+  font-weight: 700;
+  padding: 0 50px;
+  border: none;
+  outline: none;
+  margin-left: 50px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #d8f3ff;
+  color: #009cde;
+  border-radius: 60px;
+  font-size: 16px;
+}
+
+.cryptoFeat button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.signUpNow {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.signUpNow button {
+  margin-top: 40px;
+  width: 213px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #009cde;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  margin-left: 250px;
+}
+
+.signUpNow button:hover {
+  background-color: grey;
+}
+
+#c1{
     position:relative;
-    top:5px;
+    bottom:200px;
 }
 
-
-.partition{
-    width:1px;
-    height: 40px;
-    background-color:rgb(213, 213, 213);
-}
-
-.conversion select{
-    height: 30px;
-    width:80px;
-    font-size: 30px;
-    outline: none;
-    border: none;
-    background: none;
-}
-
-.buyBitcoins{
-    width: 374px;
-    height: 64px;
-    margin: 30px 0 ;
-    background-color:#86c306;
-    font-family: 'Ubuntu', sans-serif;
-    border: none;
-    color: white;
-    border-radius: 30px;
-    font-size: 18px;
-}
-
-.buyBitcoins:hover{
-    background-color: grey;
-    cursor: pointer;
-}
-
-.community{
-    text-align: center;
-    font-size: 14px;
-    margin-top: 250px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-family: 'Ubuntu', sans-serif;
-    color: #637696;
-}
-
-.communityName{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#community_img{
-    height: 70px;
-    width: 70px;
-    margin-left: 30px;
-}
-
-.com p{
-    font-size: 12px;
-    color: #3a4e6f;
-    position: relative;
-    bottom: 15px;
-    left: 15px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.cName{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.trust{
-    margin-top: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-#customers{
-    width:400px;
-}
-.trustedBy p{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 45px;
-    font-weight: 700;
-    color: black;
-}
-
-.rate h2{
-    color:#009cde;
-}
-
-.rateReview{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#average{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 200;
-    position: relative;
-    bottom:20px;
-    color: #637696;
-    font-size:22px;
-    line-height: 1.64;
-    letter-spacing: normal;
-}
-
-#review{
-    height: 100px;
-    background-color: white;
-}
-
-.reviewCard{
-    height:290px;
-    width:500px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0px 13px 7px 8px rgba(0,0,0,0.2);
-}
-
-.reviewPara{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: italic;
-    line-height: 1.78;
-    letter-spacing: normal;
-    color: #637696;
-}
-
-#name{
-    font-weight: 700;
-    font-size: 20px;
-    margin-left: 10px;
-}
-
-.underScore{
-    margin-left: 15px;
-}
-
-
-.features{
-    margin-top: 200px;
-}
-
-.featureHeading{
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-}
-
-.featureSection{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.featureList{
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    display: block;
-
-}
-
-.readMore:hover{
-    cursor: pointer;
-}
-
-.featureImg{
-    height: 230px;
-    width: 250px;
-}
-
-.featureClick{
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.featureDesc{
-    width:350px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #637696;
-    font-size:22px;
-    line-height: 1.64;
-    letter-spacing: normal;
-    margin-left: 35px;
-}
-
-
-.readMore{
-    color:#009cde;
-    font-size: 22px;
-    margin-left: 45px;
-}
-
-.program{
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 300px;
-}
-
-
-.refferal{
-    width:500px;
-    height: 400px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 2px 6px 21px -6px rgba(0,0,0,0.75);
-}
-
-.refferal h1{
-    width:300px;
-    height:200px;
-    position: relative;
-    bottom:80px;
-    margin-left: 30px;
-}
-
-.refferal ul{
-    list-style-type: '✔️';
-    position: relative;
-    bottom:40px;
-}
-
-.refferal li{
-    font-family: 'Ubuntu', sans-serif;
-    color: #637696;
-    font-size:22px;
-    line-height: 1.64;
-    letter-spacing: normal;
-    padding-left: 20px;
+#c2{
     position:relative;
-    bottom:80px;
+    right:700px
 }
-
-#connection{
-    height:90px;
-    width: 90px;
+#c3{
     position:relative;
-    bottom:60px;
-    background-color: white;
-    border-bottom: none;
-    border-radius: 100px;
-    box-shadow: 2px 6px 21px -6px rgba(0,0,0,0.75);
+    top: 100px;
+    left: 300px;
 }
-
-.refferal2 li{
-    list-style-type: '✔';
-    position: relative;
-    bottom:40px;
-}
-
-.refferal2 li{
-    font-family: 'Ubuntu', sans-serif;
-    color: #637696;
-    font-size:22px;
-    line-height: 1.64;
-    letter-spacing: normal;
-    padding-left: 20px;
+#c4{
     position:relative;
-    bottom:80px;
+    left:300px;
+    bottom:100px;
+}
+#c5{
+    position:relative;
+    bottom: 100px;
+    left:-670px;
+}
+.footer {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fcfeff;
+  margin-top: 250px;
+  background-image: url("./background/pattern-01.svg");
+  background-repeat: no-repeat;
+  background-position-y:50px ;
+  background-size: cover;
 }
 
-.buyBitcoin{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 100px;
+.footerImg {
+  display: block;
+  width: 350px;
+  margin: 16px 60px 0 0;
 }
 
-
-#startBit{
-    font-family: 'Ubuntu', sans-serif;
+.footerImg p {
+  color: #637696;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.buyBitcoin p{
-    font-weight: 500;
-    font-size: 18px;
-    font-family: 'Ubuntu', sans-serif;
-    color: #637696;
+#logoX {
+  width: 200px;
+  height: 56px;
 }
 
-.buyBitcoin button{
-    width:250px;
-    height:70px;
-    font-size: 18px;
-    outline: none;
-    border: none;
-    border-radius: 30px;
-    background-color:#009cde;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
+#reviews {
+  margin-top: 20px;
+  width: 256px;
+  height: 56px;
 }
 
-.buyBitcoin button:hover{
-    background-color: grey;
-    cursor: pointer;
+.footer ul li {
+  list-style-type: none;
+  font-size: 16px;
+  color: #637696;
+  font-family: "Ubuntu", sans-serif;
+  margin: 16px 80px 0 0;
 }
 
-.cryptoFeat{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 100px;
-
+#socialLogo {
+  height: 20px;
+  width: 20px;
+  margin-right: 3px;
+  position: relative;
+  top:5px;
 }
 
-.cryptoBuy{
-    width: 350px;
-    position: relative;
-    bottom:60px;
+.footerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.cryptoFeat p{
-    width: 469px;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.78;
-    color: #637696;
-    position: relative;
-    bottom:60px;
+.footerNav span {
+  margin-left: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #637696;
+  margin-left: 20px;
+}
+.footerNav select {
+  margin-right: 40px;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
 }
 
-.cryptoFeat button{
-    position: relative;
-    right: 50px;
-    height:70px;
-    width:auto;
-    font-weight: 700;
-    padding:0 50px;
-    border: none;
-    outline: none;
-    margin-left: 50px;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: #d8f3ff;
-    color:#009cde;
-    border-radius: 60px;
-    font-size: 16px;
+.final {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #637696;
+  text-align: center;
+  margin-top: 100px;
 }
 
-.cryptoFeat button:hover{
-    background-color: grey;
-    cursor: pointer;
-}
-
-
-.signUpNow{
-    display: block;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 250px;
-}
-
-.signUpNow button{
-    margin-top: 40px;
-    width: 213px;
-    height: 64px;
-    border-radius: 32px;
-    background-color: #009cde;
-    font-weight: bold;
-    font-size: 16px;
-    outline: none;
-    border: none;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-}
-
-.signUpNow button:hover{
-    background-color: grey;
-}
-
-.footer{
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: #fcfeff;
-    margin-top: 250px;
-}
-
-.footerImg{
-    display: block;
-    width: 350px;
-    margin: 16px 60px 0 0;
-}
-
-.footerImg p{
-    color: #637696;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-#logoX{
-    width:200px;
-    height: 56px;
-}
-
-#reviews{
-    margin-top: 20px;
-    width:256px;
-    height: 56px;
-}
-
-.footer ul li{
-    list-style-type: none;
-    font-size: 16px;
-    color: #637696;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 16px 80px 0 0;
-}
-
-#socialLogo{
-    height: 20px;
-    width: 20px;
-    margin-right: 3px;
-    margin-top:20px;
-}
-
-.footerNav{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-
-.footerNav span{
-    margin-left: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    color: #637696;
-    margin-left: 20px;
-}
-.footerNav select{
-    margin-right: 40px;
-    border: none;
-    outline: none;
-    background-color: #ffffff;
-}
-
-.final{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    color: #637696;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.finalPara{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    color: #637696;
+.finalPara {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #637696;
 }

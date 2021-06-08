@@ -5,7 +5,7 @@ const cvalue =(props) =>{
     return(
         // <button className={"login_btn"}>{props.content}</button>
         <div className="conversion">
-            <img alt={"flag"} src={props.src}></img>
+            <img className={"flag"}alt={"flag"} src={props.src}></img>
             <h1>{props.value}</h1>
             <div className={"partition"}></div>
             <select>

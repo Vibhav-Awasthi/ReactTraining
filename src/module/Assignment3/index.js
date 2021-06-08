@@ -40,7 +40,7 @@ class Assignment3 extends Component {
                     <h3>Get your crypto now!</h3>
                     <Cvalue src={"./Images/Assignment3/US.png"} value={"1,200"} change={"US"}/>
                     <p>______________________________________________________________________________</p>
-                    <Cvalue src={"./Images/Assignment3/bitcoin-btc-logo.png"} value={"0.10546074"} change={"BTC"}/>
+                    <Cvalue src={"./Images/Assignment3/bitcoin-btc-logo.png"} value={"0.105"} change={"BTC"}/>
                     <button className={"buyBitcoins"}>{"Buy Bitcoins"}</button>
                 </div>
             </div>
@@ -97,9 +97,9 @@ class Assignment3 extends Component {
                     <img id={"connection"} alt={"connection"} src={"./Images/Assignment3/connection.png"}></img>
                     <h1>Join the Triple 10 referral program</h1>
                     <ul>
-                        <li>{"Refer a friend and everyone get rewarded "}</li>
-                        <li>{"You get: $10 and 10% of the fees for life"}</li>
-                        <li>{"They get: $10"}</li>
+                        <li><img className={"check"} src={"./Images/Assignment3/check-green-01.svg"} alt={"#"}></img>{"Refer a friend and everyone get rewarded "}</li>
+                        <li><img className={"check"} src={"./Images/Assignment3/check-green-01.svg"} alt={"#"}></img>{"You get: $10 and 10% of the fees for life"}</li>
+                        <li><img className={"check"} src={"./Images/Assignment3/check-green-01.svg"} alt={"#"}></img>{"They get: $10"}</li>
                     </ul>
                 </div>
 
@@ -107,9 +107,9 @@ class Assignment3 extends Component {
                     <img id={"connection"} alt={"connection"} src={"./Images/Assignment3/mail.png"}></img>
                     <h1>Xcoins World Class Support</h1>
                     <ul className={"refferal2"}>
-                        <li>{"4.8 satisfaction rating "}</li>
-                        <li>{"24/7 support"}</li>
-                        <li>{"Multichannel: phone, email, chat"}</li>
+                        <li><img className={"check"} src={"./Images/Assignment3/check-purple-01.svg"} alt={"#"}></img>{"4.8 satisfaction rating "}</li>
+                        <li><img className={"check"} src={"./Images/Assignment3/check-purple-01.svg"} alt={"#"}></img>{"24/7 support"}</li>
+                        <li><img className={"check"} src={"./Images/Assignment3/check-purple-01.svg"} alt={"#"}></img>{"Multichannel: phone, email, chat"}</li>
                     </ul>
                 </div>
             </div>
@@ -130,7 +130,9 @@ class Assignment3 extends Component {
                 <h1 className={"featureHeading"}>{"How it works?"}</h1>
                 <div className={"featureSection"}>
                 <Feat2 src={"./Images/Assignment3/laptop.png"} head={"1. Sign up and get verified"} para={"Just sign up, upload your ID doc and open your account today - it’s super quick"}/>
+                <img className={"arrow_right"} alt={"featureTab"} src={"./Images/Assignment3/arrow-right-01.svg"}></img>
                 <Feat2 src={"./Images/Assignment3/bitCursor.png"} head={"2. Buy tokens"} para={"Select which tokens you would like to buy - we currently sell BTC, ETH and LTC"}/>
+                <img className={"arrow_right"} alt={"featureTab"} src={"./Images/Assignment3/arrow-right-01.svg"}></img>
                 <Feat2 src={"./Images/Assignment3/bitHand.png"} head={"3. Receive tokens"} para={"We will send tokens to your wallet within 15 minutes of payment approval"}/>
                 </div>
             </div>
@@ -138,6 +140,11 @@ class Assignment3 extends Component {
             <div className={"signUpNow"}>
                 <h1>{"Start buying Bitcoin now"}</h1>
                 <button>SIGN UP NOW</button>
+                <img id={"c1"}src={"./Images/Assignment3/coin-01.svg"} alt={"coin"}></img>
+                <img id={"c2"}src={"./Images/Assignment3/coin-02.svg"} alt={"coin"}></img>
+                <img id={"c3"}src={"./Images/Assignment3/coin-03.svg"} alt={"coin"}></img>
+                <img id={"c4"}src={"./Images/Assignment3/coin-04.svg"} alt={"coin"}></img>
+                <img id={"c5"}src={"./Images/Assignment3/coin-05.svg"} alt={"coin"}></img>
             </div>
             <div className={"footer"}>
                 <div className={"footerImg"}>
@@ -160,9 +167,9 @@ class Assignment3 extends Component {
 
                 <ul>
                     <h4>SOCIAL</h4>
-                    <li><img id="socialLogo" src={"./Images/Assignment3/instagram.png"} alt={"blog"}></img>BLog</li>
-                    <li><img id="socialLogo" src={"./Images/Assignment3/twitter.png"} alt={"blog"}></img>Twitter</li>
-                    <li><img id="socialLogo" src={"./Images/Assignment3/fb.png"} alt={"blog"}></img>Facebook</li>
+                    <li><img id="socialLogo" src={"./Images/Assignment3/instagram-02.svg"} alt={"blog"}></img>BLog</li>
+                    <li><img id="socialLogo" src={"./Images/Assignment3/twitter-02.svg"} alt={"blog"}></img>Twitter</li>
+                    <li><img id="socialLogo" src={"./Images/Assignment3/facebook-02.svg"} alt={"blog"}></img>Facebook</li>
                 </ul>
             </div>
             <div className={"footerNav"}>
