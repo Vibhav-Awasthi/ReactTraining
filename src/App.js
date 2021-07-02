@@ -1,15 +1,15 @@
-// import React from "react";
-// import Assignment10 from "./module/Assignment10";
-// class App extends React.Component {
-//   render() {
-//     return (
-//       <div className={"HomeContainer"}>
-//         <Assignment10 />
-//       </div>
-//     );
-//   }
-// }
-// export default App;
+import React from "react";
+import Assignment13 from "./module/Assignment13";
+class App extends React.Component {
+  render() {
+    return (
+      <div className={"HomeContainer"}>
+        <Assignment13 />
+      </div>
+    );
+  }
+}
+export default App;
 
 // import React from "react";
 // import { Provider } from "react-redux";
@@ -26,24 +26,24 @@
 // };
 
 // export default App;
-import React from "react";
-import ContextAPI from "./module/Assignment 11";
-// import { Provider } from "react-redux";
-// import store from "./modules/Assignment10ReduxAPICall/store/store";
-// import APIData from "./modules/Assignment10ReduxAPICall/screens/APIData";
-// import Assignment9API from "./modules/Assignment9APICall";
-// import { BrowserRouter as Router } from "react-router-dom";
+// import React from "react";
+// import ContextAPI from "./module/Assignment 11";
+// // import { Provider } from "react-redux";
+// // import store from "./modules/Assignment10ReduxAPICall/store/store";
+// // import APIData from "./modules/Assignment10ReduxAPICall/screens/APIData";
+// // import Assignment9API from "./modules/Assignment9APICall";
+// // import { BrowserRouter as Router } from "react-router-dom";
 
-const App = () => {
-  return (
-    <ContextAPI />
-    // <Provider store={store}>
-    //   <APIData />
-    // </Provider>
-    // <Router>
-    //   <Assignment9API />
-    // </Router>
-  );
-};
+// const App = () => {
+//   return (
+//     <ContextAPI />
+//     // <Provider store={store}>
+//     //   <APIData />
+//     // </Provider>
+//     // <Router>
+//     //   <Assignment9API />
+//     // </Router>
+//   );
+// };
 
-export default App;
+// export default App;
